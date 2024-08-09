@@ -24,6 +24,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="anyen"
+        options={{
+          title: 'Anyen' 
+        }}
+      />
+      <Tabs.Screen
         name="explore"
         options={{
           title: 'Explore',
